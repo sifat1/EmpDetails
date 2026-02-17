@@ -1,7 +1,8 @@
 using EmpBackend.Data;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-public class EmpDbContext : DbContext
+public class EmpDbContext : IdentityDbContext
 {
     public EmpDbContext(DbContextOptions<EmpDbContext> options)
         : base(options) { }
@@ -12,6 +13,8 @@ public class EmpDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+        base.OnModelCreating(builder);
+
         builder.Entity<Employee>()
             .HasIndex(e => e.NID)
             .IsUnique();
