@@ -1,3 +1,5 @@
+using EmpBackend.Data;
+
 public class Employee
 {
     public Guid Id { get; set; }
