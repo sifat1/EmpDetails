@@ -1,5 +1,3 @@
-namespace EmpBackend.Data;
-
 public class Child
 {
     public Guid Id { get; set; }
