@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9b6iHUcFwq2od99UAfvHnTrcSFReqTAkMy4S/4YmUms=",
+  "Source": "EmpBackend",
+  "BasePath": "_content/EmpBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
